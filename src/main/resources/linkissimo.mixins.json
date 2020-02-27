@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "net.cuddlebat.linkissimo.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+	"ServerPlayNetworkHandlerMixin"
+  ],
+  "client": [
+	"AbstractContainerScreenClientMixin",
+	"ChatScreenMixin",
+	"InvSlotAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
